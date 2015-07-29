@@ -32,5 +32,8 @@
   "dependencies": {
     "deffy": "^2.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "blah": {
+    "h_img": "http://i.imgur.com/EsztPQ4.png"
+  }
 }
