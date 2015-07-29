@@ -29,11 +29,13 @@
     "url": "https://github.com/IonicaBizau/node-set-or-get/issues"
   },
   "homepage": "https://github.com/IonicaBizau/node-set-or-get",
+  "blah": {
+    "h_img": "http://i.imgur.com/EsztPQ4.png"
+  },
   "dependencies": {
     "deffy": "^2.0.0"
   },
-  "devDependencies": {},
-  "blah": {
-    "h_img": "http://i.imgur.com/EsztPQ4.png"
+  "devDependencies": {
+    "mocha": "^2.2.5"
   }
 }
