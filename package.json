@@ -1,6 +1,6 @@
 {
   "name": "set-or-get",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Sets or gets an object field value.",
   "main": "lib/index.js",
   "directories": {
@@ -24,7 +24,7 @@
     "value"
   ],
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
-  "license": "KINDLY",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/set-or-get.js/issues"
   },
