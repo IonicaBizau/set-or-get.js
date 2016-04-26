@@ -1,6 +1,6 @@
 {
   "name": "set-or-get",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Sets or gets an object field value.",
   "main": "lib/index.js",
   "directories": {
@@ -37,5 +37,16 @@
   },
   "devDependencies": {
     "mocha": "^2.2.5"
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
