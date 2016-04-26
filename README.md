@@ -1,16 +1,20 @@
+
 [![set-or-get](http://i.imgur.com/EsztPQ4.png)](#)
 
 # set-or-get [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/set-or-get.svg)](https://www.npmjs.com/package/set-or-get) [![Downloads](https://img.shields.io/npm/dt/set-or-get.svg)](https://www.npmjs.com/package/set-or-get) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Sets or gets an object field value.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save set-or-get
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 // Dependencies
@@ -28,6 +32,7 @@ SetOrGet(cache, "bar", {}).baz = 42;
 SetOrGet(cache, "foo", []).push(7);
 // { foo: [42, 7], bar: { baz: 42 } }
 
+
 console.log(cache);
 // =>
 // {
@@ -36,7 +41,8 @@ console.log(cache);
 // }
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `SetOrGet(input, field, def)`
 Sets or gets an object field value.
@@ -49,23 +55,22 @@ Sets or gets an object field value.
 #### Return
 - **Object|Array** The field value.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`count-words`](https://github.com/IonicaBizau/count-words#readme)
 
- - [`engine-parser`](https://github.com/IonicaBizau/engine-parser) by jillix
+ - [`count-words`](https://github.com/IonicaBizau/count-words#readme)—Count how many times words appear in the input string.
+ - [`engine-builder`](https://github.com/IonicaBizau/engine-parser) (by jillix)—Engine composition parser.
+ - [`engine-parser`](https://github.com/IonicaBizau/engine-parser) (by jillix)—Engine composition parser.
+ - [`enny`](https://github.com/IonicaBizau/enny) (by jillix)—Generate Engine compositions from human-readable inputs.
+ - [`svg.connectable.js`](https://github.com/jillix/svg.connectable.js) (by jillix)—A JavaScript library for connecting SVG things.
 
- - [`enny`](https://github.com/IonicaBizau/enny) by jillix
-
- - [`lien`](https://github.com/LienJS/Lien)
-
- - [`svg.connectable.js`](https://github.com/jillix/svg.connectable.js) by jillix
-
-## License
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
