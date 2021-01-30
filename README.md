@@ -193,9 +193,9 @@ Thanks! :heart:
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
  - `lien`
- - `bloggify-template-renderer`
- - `bloggify-flexible-router`
  - `count-words`
+ - `bloggify-flexible-router`
+ - `bloggify-template-renderer`
  - `svg.connectable.js`
  - `engine-parser`
  - `engine-builder`
